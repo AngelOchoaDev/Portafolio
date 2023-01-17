@@ -1,0 +1,7 @@
+{
+  "Correo Principal" : { "tipo" : "correo", "direccion" : "ayog95+contacto@gmail.com", "texto" : "Mandame un correo !", "logo" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png" },
+  "Telefono" : { "tipo" : "telefono", "direccion" : "5561002009", "texto" : "Mandame un Whatsapp !", "logo" : "https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png" },
+  "Github" : { "tipo" : "pagina web", "direccion" : "github.com/AngelOchoaDev", "texto" : "Visita mi sitio de Github !", "logo" : "https://cdn-icons-png.flaticon.com/512/25/25231.png" },
+  "LinkedIn" : { "tipo" : "pagina web", "direccion" : "www.linkedin.com/in/angel-ochoa-a0ab1b1a9/", "texto" : "Contactame en LinkedIn !", "logo" : "https://cdn-icons-png.flaticon.com/512/174/174857.png" },
+  "Calendi" : { "tipo" : "pagina web", "direccion" : "calendly.com/angelochoadev/reunion-conmigo", "texto" : "Agenda una reunión !", "logo" : "https://theme.zdassets.com/theme_assets/1024340/78b0cd1ea78d2763fb98cb466ef065903b5efc0b.png" }
+}

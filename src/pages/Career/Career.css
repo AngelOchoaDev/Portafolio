@@ -1,0 +1,39 @@
+.Career {
+  margin-top: 164px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #C1CFC0;
+  animation: fade-in 0.5s;
+}
+
+.Career-Header{
+  color: #11324D;
+  width: auto;
+  margin: 10px 20px 10px 20px;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.Career-List {
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
