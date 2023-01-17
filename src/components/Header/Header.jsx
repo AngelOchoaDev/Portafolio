@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div className="Header">
-      <Link to={"/"} className="titulo-header" >{isTinyMobile ? "AOD" : "AngelOchoaDev"}</Link>
+      <Link to={"/Portafolio"} className="titulo-header" >{isTinyMobile ? "AOD" : "AngelOchoaDev"}</Link>
       {
         isMobile ? (
           <div className="boton-menu-desplegable-header" onClick={ () => { setIsOpen(!isOpen); } }>
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className={"menu-desplegable-header"}>
                   {
                     rutas.map( ruta => (
-                      <Link key={ruta} to={`/${ruta === "Home" ? "" : ruta}`} className={"boton-menu-desplegable"} >{ruta}</Link>
+                      <Link key={ruta} to={`/Portafolio/${ruta === "Home" ? "" : ruta}`} className={"boton-menu-desplegable"} >{ruta}</Link>
                     ))
                   }
                 </div>
@@ -39,7 +39,7 @@ const Header = () => {
           <div className="menu-header">
           {
             rutas.map( ruta => (
-              <Link key={ruta} to={`/${ruta === "Home" ? "" : ruta}`} className="boton-header" >{ruta}</Link>
+              <Link key={ruta} to={`/Portafolio/${ruta === "Home" ? "" : ruta}`} className="boton-header" >{ruta}</Link>
             ))
           }
       </div>
