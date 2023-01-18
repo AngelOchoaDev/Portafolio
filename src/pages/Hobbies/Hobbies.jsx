@@ -1,8 +1,9 @@
 import "./Hobbies.css";
 import Hobbie from "../../components/Hobbie/Hobbie.jsx";
+import data from "./Hobbies-info.json";
 import { useMediaQuery } from "react-responsive";
 
-const Hobbies = ({ data }) => {
+const Hobbies = () => {
 
   const isMobile = useMediaQuery ({ minWidth : 510 });
 
