@@ -2,7 +2,7 @@ import "./Hobbies.css";
 import Hobbie from "../../components/Hobbie/Hobbie.jsx";
 import { useMediaQuery } from "react-responsive";
 
-const Hobbies = ({ data, images }) => {
+const Hobbies = ({ data }) => {
 
   const isMobile = useMediaQuery ({ minWidth : 510 });
 
@@ -16,7 +16,7 @@ const Hobbies = ({ data, images }) => {
           keys.map((key)=>(
             <Hobbie
               key={key}
-              src={images}
+              src={data[key]["src"]}
               title={data[key]["titulo"]}
               text={data[key]["texto"]}
               align={data[key]["align"]}
