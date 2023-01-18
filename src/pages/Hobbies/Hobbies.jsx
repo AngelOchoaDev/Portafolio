@@ -2,11 +2,11 @@ import "./Hobbies.css";
 import Hobbie from "../../components/Hobbie/Hobbie.jsx";
 import { useMediaQuery } from "react-responsive";
 
-const Hobbies = ({ HobbiesData }) => {
+const Hobbies = ({ data, images }) => {
 
   const isMobile = useMediaQuery ({ minWidth : 510 });
 
-  const keys = Object.keys(HobbiesData);
+  const keys = Object.keys(data);
 
   return (
     <div className="Hobbies">
@@ -16,10 +16,10 @@ const Hobbies = ({ HobbiesData }) => {
           keys.map((key)=>(
             <Hobbie
               key={key}
-              src={HobbiesData[key]["image"]}
-              title={HobbiesData[key]["titulo"]}
-              text={HobbiesData[key]["texto"]}
-              align={HobbiesData[key]["align"]}
+              src={images}
+              title={data[key]["titulo"]}
+              text={data[key]["texto"]}
+              align={data[key]["align"]}
             />
           ))
         }

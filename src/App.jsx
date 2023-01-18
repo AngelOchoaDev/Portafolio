@@ -16,7 +16,9 @@ import HobbiesData from "./data/Hobbies-info.json";
 
 const App = () => {
 
-  Object.keys(HobbiesData).forEach( ( key ) => { HobbiesData[key]["image"] = require(`./img/${HobbiesData[key]["src"]}`); });
+  const HobbieImages = [];
+
+  Object.keys(HobbiesData).forEach( ( key ) => { HobbieImages.push(require(`./img/${HobbiesData[key]["src"]}`)) });
 
   console.log(HobbiesData);
 
@@ -29,7 +31,7 @@ const App = () => {
           <Route index element={<Overview /> } />
           <Route path="Education" element={<Education />} />
           <Route path="Career" element={<Career />} />
-          <Route path="Hobbies" element={<Hobbies HobbiesData={HobbiesData} />} />
+          <Route path="Hobbies" element={<Hobbies data={HobbiesData} images={HobbieImages} />} />
         </Route>
         <Route path="/Portafolio/Contact" element={<Contact />} />
         <Route path="/Portafolio/*" element={<h1 style={{ marginTop: 82}} >Página web no encontrada</h1>} />
