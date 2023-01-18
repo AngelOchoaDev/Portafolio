@@ -16,7 +16,7 @@ const Hobbies = ({ data, images }) => {
           keys.map((key)=>(
             <Hobbie
               key={key}
-              src={data[key]["src"]}
+              src={images}
               title={data[key]["titulo"]}
               text={data[key]["texto"]}
               align={data[key]["align"]}
