@@ -19,6 +19,7 @@
   color: #11324D;
   width: auto;
   margin: 10px;
+  user-select: none;
 }
 
 @keyframes fade-in {
