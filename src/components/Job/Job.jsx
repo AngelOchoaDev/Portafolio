@@ -22,7 +22,7 @@ const Job = ({ src , title, job, start, end, description, align }) => {
       <div className="Job-Info" style={ isTinyMobile ? { width : 450 } : { width : 250 }}>
         <div className="Job-Title" style={ isTinyMobile ? { fontSize : 24 } : { fontSize : 18 }} >{ title }</div>
         <div className="Job-Text" style={ isTinyMobile ? { fontSize : 18 } : { fontSize : 14 }}>
-          <div className="Job-Job">{ `Puesto: ${job}` }</div>
+          <div className="Job-Job">{ `Puesto: ${ job }` }</div>
           <div className="Job-Duration">{ `Duración: ${ start } - ${ end }` }</div>
           <div className="Job-Description">{ `Descripción: ${ description }` }</div>
         </div>

@@ -11,18 +11,20 @@ const Career = () => {
 
   return (
     <div className="Career">
-      <div className="Career-Header" style={ isMobile ? { fontSize : 40 } : { fontSize : 24 }  }>Aqui puedes ver mi carrera profesional!</div>
+      <div className="Career-Header" style={ isMobile ? { fontSize : 40 } : { fontSize : 24 }  }>
+        Aqui puedes ver mi carrera profesional!
+      </div>
       <div className="Career-List">
         {
           keys.map( ( key ) => (
             <Job
-              align={ "right" }
+              align={ data[key]["align"] }
               title={ data[key]["Nombre"] }
               src={ data[key]["src"] }
-              description={data[key]["Descripcion"] }
               job={ data[key]["Cargo"] }
               start={ data[key]["Fecha de Inicio"] }
               end={ data[key]["Fecha de Termino"] }
+              description={data[key]["Descripcion"] }
             />
           ))
         }
