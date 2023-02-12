@@ -7,6 +7,7 @@
   box-shadow: 20px 20px 7px 2px rgba(62, 62, 62, 0.637);
   border: 1px solid rgba(59, 59, 59, 0.401);
   background-color: #e7e7c9;
+  user-select: none;
 }
 
 .Hobbie-Img {

@@ -1,0 +1,5 @@
+{
+  "Nivel Superior" : { "Escuela" : "Instituto Politécnico Nacional", "Unidad" : "Unidad Profesional Interdisciplinaria en Investigación y Tecnologías Avanzadas", "Inicio" : "2014", "Fin" : "2023", "Documento" : "Certificado Parcial De Estudios", "Descripción" : "Escuela de nivel superior", "src" : "NivelSuperior.jpg", "align" : "right" },
+  "Nivel Medio Superior" : { "Escuela" : "Instituto Politécnico Nacional", "Unidad" : "CET 1 - 'Walter Cross Buchanan'", "Inicio" : "2010", "Fin" : "2014", "Documento" : "Certificado De Estudios - Carta Pasante", "Descripción" : "Escuela de nivel medio superior", "src" : "NivelMedioSuperior.jpg", "align" : "left" },
+  "Secundaria" : { "Escuela" : "Escuela Secundaria Técnica", "Unidad" : "No. 104 - 'Ing. Martín López Rito'", "Inicio" : "2007", "Fin" : "2010", "Documento" : "Diploma", "Descripción" : "Escuela Técnica Donde nació el amor por la programación", "src" : "Secundaria.jpg", "align" : "right" }
+}
