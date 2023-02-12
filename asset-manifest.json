@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.5ec2ef39.css",
-    "main.js": "/Portafolio/static/js/main.40f6bdee.js",
+    "main.css": "/Portafolio/static/css/main.0c4efb13.css",
+    "main.js": "/Portafolio/static/js/main.e9db7190.js",
     "static/media/piano.png": "/Portafolio/static/media/piano.77b5678bce478abbaa5a.png",
     "static/media/eve.png": "/Portafolio/static/media/eve.68117e54550497ff9929.png",
     "static/media/yoyo.png": "/Portafolio/static/media/yoyo.8a3eeb6564e35696a2b5.png",
     "static/media/magia.png": "/Portafolio/static/media/magia.73b06efdae25ce610b8b.png",
+    "static/media/bestbuy_polanco.jpg": "/Portafolio/static/media/bestbuy_polanco.e769b054299810686b22.jpg",
     "static/media/coding.png": "/Portafolio/static/media/coding.159071cfc282580628c4.png",
     "static/media/logo.png": "/Portafolio/static/media/logo.7f79a8120e854c21a61a.png",
+    "static/media/ciberbicho.webp": "/Portafolio/static/media/ciberbicho.e4a30a29d935a4d7bc31.webp",
     "index.html": "/Portafolio/index.html",
-    "main.5ec2ef39.css.map": "/Portafolio/static/css/main.5ec2ef39.css.map",
-    "main.40f6bdee.js.map": "/Portafolio/static/js/main.40f6bdee.js.map"
+    "main.0c4efb13.css.map": "/Portafolio/static/css/main.0c4efb13.css.map",
+    "main.e9db7190.js.map": "/Portafolio/static/js/main.e9db7190.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec2ef39.css",
-    "static/js/main.40f6bdee.js"
+    "static/css/main.0c4efb13.css",
+    "static/js/main.e9db7190.js"
   ]
 }
