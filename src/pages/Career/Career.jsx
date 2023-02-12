@@ -18,6 +18,7 @@ const Career = () => {
         {
           keys.map( ( key ) => (
             <Job
+              key={ key }
               align={ data[key]["align"] }
               title={ data[key]["Nombre"] }
               src={ data[key]["src"] }
