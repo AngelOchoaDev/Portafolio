@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.0c4efb13.css",
-    "main.js": "/Portafolio/static/js/main.e9db7190.js",
+    "main.css": "/Portafolio/static/css/main.014f5c1b.css",
+    "main.js": "/Portafolio/static/js/main.5b5869b2.js",
     "static/media/piano.png": "/Portafolio/static/media/piano.77b5678bce478abbaa5a.png",
     "static/media/eve.png": "/Portafolio/static/media/eve.68117e54550497ff9929.png",
+    "static/media/NivelMedioSuperior.jpg": "/Portafolio/static/media/NivelMedioSuperior.4b1f854f45fd3db1e485.jpg",
     "static/media/yoyo.png": "/Portafolio/static/media/yoyo.8a3eeb6564e35696a2b5.png",
     "static/media/magia.png": "/Portafolio/static/media/magia.73b06efdae25ce610b8b.png",
+    "static/media/Secundaria.jpg": "/Portafolio/static/media/Secundaria.19e3be9262126873f27e.jpg",
     "static/media/bestbuy_polanco.jpg": "/Portafolio/static/media/bestbuy_polanco.e769b054299810686b22.jpg",
     "static/media/coding.png": "/Portafolio/static/media/coding.159071cfc282580628c4.png",
+    "static/media/NivelSuperior.jpg": "/Portafolio/static/media/NivelSuperior.6301e99378c116b1afa1.jpg",
     "static/media/logo.png": "/Portafolio/static/media/logo.7f79a8120e854c21a61a.png",
     "static/media/ciberbicho.webp": "/Portafolio/static/media/ciberbicho.e4a30a29d935a4d7bc31.webp",
     "index.html": "/Portafolio/index.html",
-    "main.0c4efb13.css.map": "/Portafolio/static/css/main.0c4efb13.css.map",
-    "main.e9db7190.js.map": "/Portafolio/static/js/main.e9db7190.js.map"
+    "main.014f5c1b.css.map": "/Portafolio/static/css/main.014f5c1b.css.map",
+    "main.5b5869b2.js.map": "/Portafolio/static/js/main.5b5869b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4efb13.css",
-    "static/js/main.e9db7190.js"
+    "static/css/main.014f5c1b.css",
+    "static/js/main.5b5869b2.js"
   ]
 }
