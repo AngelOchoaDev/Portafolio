@@ -22,11 +22,11 @@ const School = ({ src , school, institute, level, document, start, end, descript
       <div className="School-Info" style={ isTinyMobile ? { width : 450 } : { width : 250 }}>
         <div className="School-Title" style={ isTinyMobile ? { fontSize : 24 } : { fontSize : 18 }} >{ level }</div>
         <div className="School-Text" style={ isTinyMobile ? { fontSize : 18 } : { fontSize : 14 }}>
-          <div className="School-School">{ `Escuela: ${ school }` }</div>
-          <div className="School-Institute">{ `Unidad: ${ institute }` }</div>
-          <div className="School-Duration">{ `Duración: ${ start } - ${ end }` }</div>
-          <div className="School-Certificate">{ `Documento: ${ document }` }</div>
-          <div className="School-Description">{ `Descripción: ${ description }` }</div>
+          <div className="School-School">Escuela: <b>{ school }</b></div>
+          <div className="School-Institute">Unidad: <b>{ institute }</b></div>
+          <div className="School-Duration">Duración: <b>{ start } - { end }</b></div>
+          <div className="School-Certificate">Documento: <b>{ document }</b></div>
+          <div className="School-Description">Descripción: <b>{ description }</b></div>
         </div>
       </div>
     </div>

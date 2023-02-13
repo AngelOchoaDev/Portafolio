@@ -12,7 +12,7 @@ const Education = () => {
 
   return (
     <div className="Education">
-      <div className="Education-Header" style={ isMobile ? { fontSize : 40 } : { fontSize : 24 }  }>
+      <div className="Education-Header" style={ isMobile ? { fontSize : 40, marginLeft : 10, marginRight : 10 } : { fontSize : 22, marginLeft : 10, marginRight : 10 }  }>
         { "Aqui puedes ver mis estudios !" }
       </div>
       <div className="Education-List" onClick={ () => { console.log("hola"); } }>
