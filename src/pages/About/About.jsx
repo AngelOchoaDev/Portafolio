@@ -5,11 +5,11 @@ import { useState } from "react";
 
 const About = () => {
 
-  const aboutSections = ["Overview","Education", "Career", "Hobbies"];
+  const aboutSections = ["Biography","Education", "Career", "Hobbies"];
 
   const isMobile = useMediaQuery( { maxWidth : 630 } );
 
-  const [nombre,setNombre] = useState("Overview");
+  const [nombre,setNombre] = useState("Biography");
 
   const [isOpen,setIsOpen] = useState( false );
 
@@ -29,7 +29,7 @@ const About = () => {
                       aboutSections.map( ruta => (
                         <Link
                           key={ruta}
-                          to={`${ruta === "Overview" ? "" : ruta}`}
+                          to={`${ruta === "Biography" ? "" : ruta}`}
                           className="elemento-menu-desplegable"
                           >{ruta}</Link>
                       ))
@@ -44,7 +44,7 @@ const About = () => {
                 aboutSections.map( ruta => (
                   <Link
                     key={ruta}
-                    to={`${ ruta === "Overview" ? "" : ruta }`}
+                    to={`${ ruta === "Biography" ? "" : ruta }`}
                     className="About-boton"
                     onClick={ () => { setNombre(ruta) } }
                   >
