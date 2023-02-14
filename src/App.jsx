@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="Hobbies" element={<Hobbies />} />
         </Route>
         <Route path="/Portafolio/Contact" element={<Contact />} />
-        <Route path="/Portafolio/*" element={<h1 style={{ marginTop: 82}} >Página web no encontrada</h1>} />
+        <Route path="/Portafolio/*" element={<Navigate to="/Portafolio" replace={true} />} />
       </Routes>
     </div>
   );
