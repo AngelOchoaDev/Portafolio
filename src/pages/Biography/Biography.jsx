@@ -14,7 +14,7 @@ const Biography = () => {
       <div className = "Biography-Body">
         {
           keys.map( key => (
-            <div className="Biography-Container">
+            <div className="Biography-Container" key={ key }>
               <div className="Biography-Text" style={ isMobile ? { fontSize : 14 } : { fontSize : 18 } }>{ data[key] }</div>
             </div>
           ))

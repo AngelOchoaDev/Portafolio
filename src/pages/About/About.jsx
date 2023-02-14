@@ -7,7 +7,7 @@ const About = () => {
 
   const aboutSections = ["Biography","Education", "Career", "Hobbies"];
 
-  const isMobile = useMediaQuery( { maxWidth : 650 } );
+  const isMobile = useMediaQuery( { maxWidth : 690 } );
 
   const [nombre,setNombre] = useState("Biography");
 
@@ -47,6 +47,7 @@ const About = () => {
                     to={`${ ruta === "Biography" ? "" : ruta }`}
                     className="About-boton"
                     onClick={ () => { setNombre(ruta) } }
+                    style = { { minWidth : 50, paddingLeft : 7, paddingRight : 7 } }
                   >
                     {ruta}
                   </Link>

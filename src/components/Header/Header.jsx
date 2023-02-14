@@ -6,9 +6,9 @@ import { useState } from "react";
 
 const Header = () => {
 
-  const rutas = ["Home","About","Contact"];
+  const rutas = ["Home","About", "Projects", "Contact"];
 
-  const isMobile = useMediaQuery( { maxWidth : 530 } );
+  const isMobile = useMediaQuery( { maxWidth : 630 } );
 
   const isTinyMobile = useMediaQuery( { maxWidth : 310 } );
 

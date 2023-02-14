@@ -1,7 +1,6 @@
-.Home {
-  margin-top: 82px;
+.Unity {
+  margin-top: 164px;
   width: 100%;
-  min-height: 600px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -10,14 +9,16 @@
   font-weight: bold;
   align-items: center;
   align-content: center;
-  justify-content: flex-start;
+  justify-content: center;
   text-align: center;
   background-color: #C1CFC0;
   animation: fade-in 0.5s;
   user-select: none;
 }
 
-@keyframes fade-in {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+.Unity-Header{
+  color: #11324D;
+  width: auto;
+  margin: 10px 20px 10px 20px;
+  user-select: none;
 }

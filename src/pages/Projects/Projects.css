@@ -1,12 +1,12 @@
-.About {
+.Projects {
   width: auto;
   height: auto;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-start;
   text-align: center;
   background-color: #C1CFC0;
@@ -14,12 +14,23 @@
   user-select: none;
 }
 
+.Projects-title {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #11324D;
+  padding: 5px;
+}
+
 @keyframes fade-in {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-.About-header {
+.Projects-header {
   position: fixed;
   top: 82px;
   width: 100%;
@@ -39,7 +50,7 @@
   z-index: 1;
 }
 
-.About-botones {
+.Projects-botones {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -54,7 +65,7 @@ a {
   text-decoration: none;
 }
 
-.About-boton {
+.Projects-boton {
   padding: 5px;
   color: #11324D;
   background-color: #C1CFC0;
@@ -63,7 +74,7 @@ a {
   transition: 0.15s;
 }
 
-.About-boton:hover {
+.Projects-boton:hover {
   color: #C1CFC0;
   background-color: #11324D;
   border: 2px solid #C1CFC0;
@@ -71,18 +82,7 @@ a {
   transition: 0.15s;
 }
 
-.About-title {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 20px;
-  font-size: 25px;
-  color: #11324D;
-  padding: 5px;
-}
-
-.boton-menu-desplegable-about {
+.boton-menu-desplegable-projects {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ a {
   gap: 5px;
 }
 
-.bar-about {
+.bar-projects {
   margin: 0px;
   padding: 0px;
   width: 75%;
@@ -111,7 +111,7 @@ a {
   100% { opacity: 1; }
 }
 
-.menu-desplegable-about {
+.menu-desplegable-projects {
   position: absolute;
   width: 130px;
   left: -4px;
@@ -131,7 +131,7 @@ a {
   text-decoration: none;
 }
 
-.elemento-menu-desplegable {
+.elemento-menu-desplegable-projects {
   margin: 5px;
   padding: 5px;
   color: #E7E0C9;
