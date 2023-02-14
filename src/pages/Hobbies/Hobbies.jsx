@@ -16,11 +16,11 @@ const Hobbies = () => {
         { 
           keys.map((key)=>(
             <Hobbie
-              key={key}
-              src={data[key]["src"]}
-              title={data[key]["titulo"]}
-              text={data[key]["texto"]}
-              align={data[key]["align"]}
+              key     = {key}
+              src     = {data[key]["src"]}
+              title   = {data[key]["titulo"]}
+              text    = {data[key]["texto"]}
+              align   = {data[key]["align"]}
             />
           ))
         }

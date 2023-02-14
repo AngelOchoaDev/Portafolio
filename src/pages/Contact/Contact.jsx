@@ -24,11 +24,11 @@ const Contact = () => {
         {
           keys.map((key)=>(
             <ContactButton
-              key={key}
-              direccion={datos[key]["direccion"]}
-              tipo={datos[key]["tipo"]}
-              texto={datos[key]["texto"]}
-              logo={datos[key]["logo"]}
+              key         = { key }
+              direccion   = { datos[key]["direccion"] }
+              tipo        = { datos[key]["tipo"] }
+              texto       = { datos[key]["texto"] }
+              logo        = { datos[key]["logo"] }
             />
           ))
         }

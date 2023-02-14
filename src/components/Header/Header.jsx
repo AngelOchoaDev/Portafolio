@@ -19,7 +19,7 @@ const Header = () => {
       <Link to={"/Portafolio/"} className="titulo-header" >{isTinyMobile ? "AOD" : "AngelOchoaDev"}</Link>
       {
         isMobile ? (
-          <div className="boton-menu-desplegable-header" onClick={ () => { setIsOpen(!isOpen); } }>
+          <div className="boton-menu-desplegable-header" onClick={ () => { setIsOpen( !isOpen ) } } onMouseLeave = { () => { setIsOpen( false ) } } >
             <div className="bar 1" />
             <div className="bar 2" />
             <div className="bar 3" />

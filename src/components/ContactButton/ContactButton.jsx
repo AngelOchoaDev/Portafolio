@@ -1,7 +1,7 @@
 import "./ContactButton.css";
 import { useMediaQuery } from "react-responsive";
 
-const ContactButton = ( { key , direccion , tipo, texto , logo } ) => {
+const ContactButton = ( { direccion , tipo, texto , logo } ) => {
 
   const isMobile = useMediaQuery({ minWidth : 400 });
 
@@ -11,7 +11,6 @@ const ContactButton = ( { key , direccion , tipo, texto , logo } ) => {
         target="_blank"
         rel="noreferrer"
         className={`ContactButton  ${isMobile ? "cb-wide" : "cb-compact" }`}
-        key={key}
       >
         <img src={logo} alt={logo} className={`ContactButton-Logo`} />
         { isMobile ? texto : null }

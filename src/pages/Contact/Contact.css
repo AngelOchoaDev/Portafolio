@@ -14,6 +14,7 @@
   text-align: center;
   background-color: #C1CFC0;
   animation: fade-in 0.5s;
+  user-select: none;
 }
 
 @keyframes fade-in {

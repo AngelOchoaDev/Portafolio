@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   animation: fade-in 0.5s;
+  user-select: none;
 }
 
 @keyframes fade-in {

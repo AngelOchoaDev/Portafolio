@@ -7,7 +7,7 @@ const About = () => {
 
   const aboutSections = ["Biography","Education", "Career", "Hobbies"];
 
-  const isMobile = useMediaQuery( { maxWidth : 630 } );
+  const isMobile = useMediaQuery( { maxWidth : 650 } );
 
   const [nombre,setNombre] = useState("Biography");
 
@@ -18,7 +18,7 @@ const About = () => {
       <div className="About-header">
         {
           isMobile ? (
-            <div className="boton-menu-desplegable-about" onClick={ () => { setIsOpen(!isOpen); } }>
+            <div className="boton-menu-desplegable-about" onClick={ () => { setIsOpen( !isOpen ) } } onMouseLeave = { () => { setIsOpen( false ) } } >
               <div className="bar-about 1" />
               <div className="bar-about 2" />
               <div className="bar-about 3" />

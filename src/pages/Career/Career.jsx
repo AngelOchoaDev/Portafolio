@@ -18,14 +18,14 @@ const Career = () => {
         {
           keys.map( ( key ) => (
             <Job
-              key={ key }
-              align={ data[key]["align"] }
-              title={ data[key]["Nombre"] }
-              src={ data[key]["src"] }
-              job={ data[key]["Cargo"] }
-              start={ data[key]["Fecha de Inicio"] }
-              end={ data[key]["Fecha de Termino"] }
-              description={data[key]["Descripcion"] }
+              key           = { key }
+              align         = { data[key]["align"] }
+              title         = { data[key]["Nombre"] }
+              src           = { data[key]["src"] }
+              job           = { data[key]["Cargo"] }
+              start         = { data[key]["Fecha de Inicio"] }
+              end           = { data[key]["Fecha de Termino"] }
+              description   = { data[key]["Descripcion"] }
             />
           ))
         }
