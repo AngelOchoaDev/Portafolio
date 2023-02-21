@@ -85,8 +85,8 @@ const Ahorcado = ( { state , setState } ) => {
                 <div>{"Tu palabra es:"}</div>
                 <div className="Ahorcado-Palabra-Seleccionada" style={ isMobile ? { width : 250 } : { width : 600 } } >
                   {
-                    word.split("").map( ( letter ) => (
-                      <div key={letter} className="Ahorcado-Letra-Seleccionada">{`${ guesses.includes( letter ) ? letter : "_"}`}</div>
+                    word.split("").map( ( letter, index ) => (
+                      <div key={ index } className="Ahorcado-Letra-Seleccionada">{`${ guesses.includes( letter ) ? letter : "_"}`}</div>
                     ))
                   }
                 </div>
@@ -105,7 +105,7 @@ const Ahorcado = ( { state , setState } ) => {
                         onClick={ () => {
                           if( !(guesses.includes(letter)||mistakes.includes(letter)) ) {
                             const temp = word.split("");
-                            temp.includes(letter) ? ( setGuesses( guesses => [...guesses, letter] ) ) : ( setMistakes( mistakes => [... mistakes, letter] ), setLifes( lifes - 1 ))
+                            temp.includes(letter) ? ( setGuesses( guesses => [...guesses, letter] ) ) : ( setMistakes( mistakes => [... mistakes, letter] ), setLifes( lifes - 1 ));
                             let tempWinner = temp.filter( ( item, index ) => temp.indexOf( item ) === index );
                             let tempWord = [...guesses, letter];
                             if ( tempWinner.length === tempWord.length ) setFinished(true); 
