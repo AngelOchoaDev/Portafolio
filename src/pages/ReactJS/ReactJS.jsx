@@ -114,7 +114,7 @@ const Ahorcado = ( { state , setState } ) => {
                             }
                             let tempWinner = temp.filter( ( item, index ) => temp.indexOf( item ) === index );
                             let tempWord = [...guesses, letter];
-                            if ( tempWinner.length === tempWord.length ) setFinished(true); 
+                            setTimeout( () => { if ( tempWinner.length === tempWord.length ) setFinished( true ); }, 50 );
                           }
                         }}
                       >
