@@ -105,9 +105,7 @@ const Ahorcado = ( { state , setState } ) => {
                         onClick={ () => {
                           if( !(guesses.includes(letter)||mistakes.includes(letter)) ) {
                             const temp = word.split("");
-                            temp.includes(letter)
-                            ? ( setGuesses( guesses => [...guesses, letter] ) )
-                            : ( setMistakes( mistakes => [... mistakes, letter] ), setLifes( lifes - 1 ))
+                            temp.includes(letter) ? ( setGuesses( guesses => [...guesses, letter] ) ) : ( setMistakes( mistakes => [... mistakes, letter] ), setLifes( lifes - 1 ))
                             let tempWinner = temp.filter( ( item, index ) => temp.indexOf( item ) === index );
                             let tempWord = [...guesses, letter];
                             if ( tempWinner.length === tempWord.length ) setFinished(true); 
