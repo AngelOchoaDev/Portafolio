@@ -12,11 +12,21 @@ import Projects from "./pages/Projects/Projects";
 import ReactJS from "./pages/ReactJS/ReactJS";
 import Unity from "./pages/Unity/Unity";
 import P5 from "./pages/p5/p5";
+import { useState } from "react";
 
 // Pagina de las paletas de colores:
 // https://colorhunt.co/palette/e7e0c9c1cfc06b7aa111324d
 
 const App = () => {
+
+  const [hangedManState, setHangedManState] = useState({
+    winner : true,
+    word : "",
+    guesses : [],
+    mistakes : [],
+    lifes: 3,
+    finished : false
+  });
 
   return (
     <div className="App">
@@ -30,7 +40,7 @@ const App = () => {
           <Route path="Hobbies" element={ <Hobbies /> } />
         </Route>
         <Route path="/Portafolio/Projects" element={ <Projects /> } >
-          <Route index element={ <ReactJS /> } />
+          <Route index element={ <ReactJS state = { hangedManState } setState = { setHangedManState } /> } />
           <Route path="Unity" element={ <Unity /> } />
           <Route path="p5" element={ <P5 /> } />
         </Route>

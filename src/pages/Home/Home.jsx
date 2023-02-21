@@ -4,7 +4,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      holi
+      <div className="Home-Header">{ "Bienvenidos a mi pagina web !" }</div>
     </div>
   );
 }

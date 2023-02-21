@@ -21,3 +21,10 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.Home-Header{
+  color: #11324D;
+  width: auto;
+  margin: 10px 20px 10px 20px;
+  user-select: none;
+}

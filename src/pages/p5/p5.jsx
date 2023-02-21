@@ -20,7 +20,9 @@ const P5 = () => {
 
   return (
     <div className="p5">
-      <Sketch setup={setup} draw={draw} />
+      <div className="p5-Container">
+        <Sketch setup={setup} draw={draw} />
+      </div>
     </div>
   );
 }
