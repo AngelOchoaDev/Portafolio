@@ -34,6 +34,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   gap: 25px;
+  margin-bottom: 50px;
 }
 
 .Biography-Container {
