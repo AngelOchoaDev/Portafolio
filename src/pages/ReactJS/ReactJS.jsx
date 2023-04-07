@@ -6,7 +6,7 @@ const ReactJS = ( { state, setState } ) => {
 
   return (
     <div className="ReactJS">
-      <div className="ReactJS-Header">{"Este juego ha sido realizado con ReactJS"}</div>
+      <div className="ReactJS-Header">{ "Este juego ha sido realizado con ReactJS" }</div>
       <Ahorcado state={state} setState={setState} />
     </div>
   );
@@ -51,7 +51,7 @@ const Ahorcado = ( { state , setState } ) => {
     const array = words[difficulty];
     const position = Math.floor(array.length *Math.random());
     setWord(words[difficulty][position]);
-    setLifes( difficulty=== "easy" ? 7 : difficulty === "normal" ? 5 : 3 );
+    setLifes( difficulty === "easy" ? 7 : difficulty === "normal" ? 5 : 3 );
   };
 
   const resetHandle = () => {
@@ -64,7 +64,7 @@ const Ahorcado = ( { state , setState } ) => {
   };
 
   return (
-    <div className="Ahorcado" style={ isMobile ? { width : 300 } : { width : 700 } } >
+    <div className = "Ahorcado" style = { isMobile ? { width : 300 } : { width : 700 } } >
       <div className="Ahorcado-Header">{"Juego del ahorcado"}</div>
       <div className="Ahorcado-Contenedor-Principal" style={ isMobile ? { width : 250 } : { width : 700 } } >
         {
