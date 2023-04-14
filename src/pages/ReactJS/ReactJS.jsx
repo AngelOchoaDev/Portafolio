@@ -6,7 +6,7 @@ const ReactJS = ( { state, setState } ) => {
 
   return (
     <div className="ReactJS">
-      <div className="ReactJS-Header">{ "Este juego ha sido realizado con ReactJS" }</div>
+      <div className="ReactJS-Header">{ "Estos proyectos se han realizado con ReactJS" }</div>
       <Ahorcado state={state} setState={setState} />
     </div>
   );
