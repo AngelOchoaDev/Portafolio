@@ -30,6 +30,7 @@ const Projects = () => {
                         <Link
                           key={ruta}
                           to={`${ruta === "ReactJS" ? "" : ruta}`}
+                          onClick={ () => { setNombre(ruta) } }
                           className="elemento-menu-desplegable-projects"
                           >{ruta}</Link>
                       ))

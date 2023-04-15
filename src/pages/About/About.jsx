@@ -30,6 +30,7 @@ const About = () => {
                         <Link
                           key={ruta}
                           to={`${ruta === "Biography" ? "" : ruta}`}
+                          onClick={ () => { setNombre(ruta) } }
                           className="elemento-menu-desplegable"
                           >{ruta}</Link>
                       ))
